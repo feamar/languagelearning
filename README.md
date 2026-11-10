@@ -23,8 +23,12 @@ Tell Claude your mother tongue when you start, and it will not ask for it:
 /languagelearning:language-tutor I-am:Dutch
 ```
 
-You can also put `I-am:Dutch` anywhere in your first message. The language can be a name in any
-language (`Dutch`, `Nederlands`, `Deutsch`) or an ISO 639-1 code (`nl`, `de`, `es`).
+`I-am:` is your mother tongue: the language the tutor talks and explains in. It is not the
+language you want to learn. A Dutch speaker learning Danish types `I-am:Dutch`.
+
+You can also put `I-am:Dutch` anywhere in your first message. `I am:Dutch` works too. The language
+can be a name in any language (`Dutch`, `Nederlands`, `Deutsch`) or an ISO 639-1 code (`nl`, `de`,
+`es`).
 
 ## Install in Claude Code
 
@@ -43,15 +47,18 @@ Then start a chat with, for example, `I want to learn Spanish. I-am:Dutch`.
 
 ## Use with other AI assistants (ChatGPT, Gemini, Le Chat, ...)
 
-1. Start a new chat and type your shortcut on the first line, for example `I-am:Danish`.
+1. Start a new chat and type your shortcut on the first line, for example `I-am:Dutch`. In
+   ChatGPT, use a Temporary Chat, so that memories of earlier chats do not interfere.
 2. Open [skills/language-tutor/SKILL.md](skills/language-tutor/SKILL.md), copy everything below
    the second `---` line, and paste it under your shortcut.
-3. Send it. The first reply should start with a stage marker such as `[Stage 1 · Intake · 0/10]`,
-   in your mother tongue, and ask one or two questions about how you learn.
+3. Send it. The first reply should start with a stage marker such as
+   `[Stage 1 · Intake · 0/11 done · now: Q1 other languages]`, in your mother tongue, and ask
+   exactly one question.
 
-If the assistant drifts, for example it stops using your language or skips the intake, remind it:
-`Follow the hard rules.`
+Every reply during the intake should look the same: the marker, at most one short sentence about
+your answer, and the next question. If the assistant drifts, for example it starts teaching, tests
+your level or stops using your language, remind it: `Follow the hard rules.`
 
-You can also save the instructions in a custom GPT or Gemini Gem, and start each chat with
-`I-am:Danish`. That works better than pasting, because the instructions then stay in force for the
+You can also save the instructions in a Gemini Gem or a custom GPT, and start each chat with
+`I-am:Dutch`. That works better than pasting, because the instructions then stay in force for the
 whole chat.
