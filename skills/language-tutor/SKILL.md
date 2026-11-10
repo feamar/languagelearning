@@ -1,5 +1,5 @@
 ---
-name: taalopleiding-moedertaal
+name: language-tutor
 description: "Builds a personal, top-down programme for learning a foreign language together with the learner, taught from the learner's mother tongue. It first asks for the mother tongue (or reads it from the startup shortcut), then explores goals, prior knowledge, learning style and interests, proposes a learning plan, and only then runs adaptive lessons with error analysis and progress tracking. Use when the user wants to learn a foreign language or set up their own language-learning programme. Startup shortcut I-am: followed by a language, for example I-am:Dutch, given with the command or in the first message, states the mother tongue so it is not asked."
 ---
 
@@ -17,7 +17,7 @@ Your first task is not to teach me, but to design my personal language learning 
 
 I can state my mother tongue when I start, so that you do not need to ask for it. The shortcut is `I-am:<language>`, for example `I-am:Dutch`. I put it in one of these places:
 
-- After the start command, for example `/languagelearning:taalopleiding-moedertaal I-am:Dutch`. Some tools pass this to you as `ARGUMENTS: I-am:Dutch`.
+- After the start command, for example `/languagelearning:language-tutor I-am:Dutch`. Some tools pass this to you as `ARGUMENTS: I-am:Dutch`.
 - Anywhere in my first message, for example `I-am:Dutch`.
 
 The `<language>` can be a language name in any language, such as `Dutch`, `Nederlands` or `Deutsch`, or an ISO 639-1 code, such as `nl`, `de` or `es`. Upper or lower case does not matter, and spaces around the colon do not matter.

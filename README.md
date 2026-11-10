@@ -7,11 +7,11 @@ understand, remember and can apply independently.
 
 ## Two versions
 
-- `taalopleiding-moedertaal` (default, English): the programme taught from your mother tongue.
+- `language-tutor` (default, English): the programme taught from your mother tongue.
   Claude asks for your mother tongue first, holds the whole conversation in it, explains the new
   language by comparing it with your mother tongue, and watches for mistakes you carry over from it.
   If you just say you want to learn a language, Claude starts this version.
-  See [skills/taalopleiding-moedertaal/SKILL.md](skills/taalopleiding-moedertaal/SKILL.md).
+  See [skills/language-tutor/SKILL.md](skills/language-tutor/SKILL.md).
 - `taalopleiding` (original, Dutch): the original prompt, unchanged. It only starts when you call it
   by name. See [skills/taalopleiding/SKILL.md](skills/taalopleiding/SKILL.md).
 
@@ -20,7 +20,7 @@ understand, remember and can apply independently.
 Tell Claude your mother tongue when you start, and it will not ask for it:
 
 ```
-/languagelearning:taalopleiding-moedertaal I-am:Dutch
+/languagelearning:language-tutor I-am:Dutch
 ```
 
 You can also put `I-am:Dutch` anywhere in your first message. The language can be a name in any
@@ -38,12 +38,12 @@ language (`Dutch`, `Nederlands`, `Deutsch`) or an ISO 639-1 code (`nl`, `de`, `e
 
 ## Use in claude.ai or the Claude app
 
-Zip the folder `skills/taalopleiding-moedertaal` and upload it under Settings > Capabilities > Skills.
+Zip the folder `skills/language-tutor` and upload it under Settings > Capabilities > Skills.
 Then start a chat with, for example, `I want to learn Spanish. I-am:Dutch`.
 
 ## Use with other AI assistants (ChatGPT, Gemini, Le Chat, ...)
 
-Open [skills/taalopleiding-moedertaal/SKILL.md](skills/taalopleiding-moedertaal/SKILL.md), copy
+Open [skills/language-tutor/SKILL.md](skills/language-tutor/SKILL.md), copy
 everything below the second `---` line, paste it as your first message, and add your shortcut
 on the last line, for example `I-am:Dutch`. Or save it as custom instructions in a custom GPT or
 Gemini Gem, and start each chat with `I-am:Dutch`.
