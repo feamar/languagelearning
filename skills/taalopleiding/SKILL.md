@@ -1,6 +1,7 @@
 ---
 name: taalopleiding
 description: Bouwt samen met de gebruiker een persoonlijke, top-down taalopleiding voor een vreemde taal - eerst een gesprek over leerdoelen, voorkennis, leerstijl en interesses, dan een leerplan, daarna adaptieve lessen met foutanalyse en voortgangsbewaking. Gebruik wanneer de gebruiker een vreemde taal wil leren of een eigen taalleerprogramma wil opzetten. Use when the user wants to learn a foreign language through a personalised, top-down learning programme.
+disable-model-invocation: true
 ---
 
 PROMPT – BOUW MET MIJ EEN PERSOONLIJKE TOP-DOWN TAALOPLEIDING

@@ -9,11 +9,13 @@ De volledige instructie staat in [skills/taalopleiding/SKILL.md](skills/taalople
 
 ## Twee versies
 
-- `taalopleiding`: de oorspronkelijke prompt, ongewijzigd.
+- `taalopleiding`: de oorspronkelijke prompt, ongewijzigd. Start alleen als je hem bij naam
+  aanroept (`/languagelearning:taalopleiding`).
 - `taalopleiding-moedertaal`: dezelfde prompt, met één extra stap vooraf (stap 0). Claude vraagt eerst
   naar je moedertaal, voert het hele gesprek daarin, legt de nieuwe taal uit in vergelijking met je
   moedertaal en let op fouten die je uit je moedertaal meeneemt. Bruikbaar voor leerlingen met elke
   moedertaal. Zie [skills/taalopleiding-moedertaal/SKILL.md](skills/taalopleiding-moedertaal/SKILL.md).
+  Dit is de standaard: zeg je dat je een taal wilt leren, dan start Claude deze versie.
 
 ## Installeren in Claude Code
 
@@ -26,7 +28,7 @@ De volledige instructie staat in [skills/taalopleiding/SKILL.md](skills/taalople
 ```
 
 Start daarna met `/languagelearning:taalopleiding` of `/languagelearning:taalopleiding-moedertaal`,
-of zeg gewoon dat je een taal wilt leren.
+of zeg gewoon dat je een taal wilt leren (dan start de moedertaalversie).
 
 ## Gebruiken in claude.ai of de Claude-app
 
