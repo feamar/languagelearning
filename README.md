@@ -51,12 +51,14 @@ Then start a chat with, for example, `I want to learn Spanish. I-am:Dutch`.
    ChatGPT, use a Temporary Chat, so that memories of earlier chats do not interfere.
 2. Open [skills/language-tutor/SKILL.md](skills/language-tutor/SKILL.md), copy everything below
    the second `---` line, and paste it under your shortcut.
-3. Send it. The first reply should start with a stage marker such as
-   `[Stage 1 · Intake · 0/11 done · now: Q1 other languages]`, in your mother tongue, and ask
-   exactly one question.
+3. Send it. The first reply should be in your mother tongue, ask exactly one question, and start
+   with a stage marker such as:
+
+   `[Stage 1 · Intake · now: Q1 other languages · still to ask: Q2 Q3 Q4 Q5 Q6 Q7 Q8 Q9 Q10 Q11]`
 
 Every reply during the intake should look the same: the marker, at most one short sentence about
-your answer, and the next question. If the assistant drifts, for example it starts teaching, tests
+your answer, and the next question. The `still to ask` list gets one shorter with every answer; if
+a number disappears without being asked, the assistant skipped a question. If the assistant drifts, for example it starts teaching, tests
 your level or stops using your language, remind it: `Follow the hard rules.`
 
 You can also save the instructions in a Gemini Gem or a custom GPT, and start each chat with
