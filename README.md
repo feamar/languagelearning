@@ -43,7 +43,15 @@ Then start a chat with, for example, `I want to learn Spanish. I-am:Dutch`.
 
 ## Use with other AI assistants (ChatGPT, Gemini, Le Chat, ...)
 
-Open [skills/language-tutor/SKILL.md](skills/language-tutor/SKILL.md), copy
-everything below the second `---` line, paste it as your first message, and add your shortcut
-on the last line, for example `I-am:Dutch`. Or save it as custom instructions in a custom GPT or
-Gemini Gem, and start each chat with `I-am:Dutch`.
+1. Start a new chat and type your shortcut on the first line, for example `I-am:Danish`.
+2. Open [skills/language-tutor/SKILL.md](skills/language-tutor/SKILL.md), copy everything below
+   the second `---` line, and paste it under your shortcut.
+3. Send it. The first reply should start with a stage marker such as `[Stage 1 · Intake · 0/10]`,
+   in your mother tongue, and ask one or two questions about how you learn.
+
+If the assistant drifts, for example it stops using your language or skips the intake, remind it:
+`Follow the hard rules.`
+
+You can also save the instructions in a custom GPT or Gemini Gem, and start each chat with
+`I-am:Danish`. That works better than pasting, because the instructions then stay in force for the
+whole chat.
