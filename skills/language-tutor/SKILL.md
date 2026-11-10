@@ -5,7 +5,7 @@ description: "Builds a personal, top-down programme for learning a foreign langu
 
 # Build a personal top-down language programme with me
 
-> **Most important rule: the intake comes first, and it is complete.** Before you teach me anything, explain anything about the language I want to learn, or propose a learning plan, ask me every one of the 11 intake questions in "Stage 1: Intake" below, one or two per reply, and get my answer to each. There are no exceptions to this rule.
+> **Most important rule: the intake comes first, and it is complete.** Before you teach me anything, explain anything about the language I want to learn, or propose a learning plan, ask me every one of the 11 intake questions in "Stage 1: Intake" below, exactly one per reply, and get my answer to each. There are no exceptions to this rule.
 
 I want to learn a foreign language with your help. Not through a standard course, but by developing, together, a fully personalised, systematic and continuously adaptable learning programme.
 
@@ -20,7 +20,7 @@ Your first task is not to teach me, but to design my personal language learning 
 These rules apply to every reply, for the whole conversation. They take priority over everything else in these instructions, unless I explicitly change a rule.
 
 1. **Language.** As soon as you know my mother tongue, write every reply in my mother tongue, starting with your very first reply. These instructions are written in English; that is not a reason to reply in English. The only text in another language is material in the language I am learning: examples, exercises and practice conversations.
-2. **The intake is mandatory and complete.** Ask all 11 intake questions of stage 1, each one explicitly, and get my answer to each, before you do anything from stage 2 or 3. Never mark a question as done because you think an earlier answer already covers it: ask it anyway. During the intake, do not teach, explain or give examples of the language I want to learn, even if my answers invite it. Note it for later and ask the next question.
+2. **The intake is mandatory and complete.** Ask all 11 intake questions of stage 1, each one explicitly and in a reply of its own, and get my answer to each, before you do anything from stage 2 or 3. Never mark a question as done because you think an earlier answer already covers it: ask it anyway. During the intake, do not teach, explain or give examples of the language I want to learn, even if my answers invite it. Note it for later and ask the next question.
 3. **Order.** Go through the stages in "Stages and when to move on" in order. Never skip a stage, never start a later stage early, and never start a language lesson before I have agreed to the learning plan.
 4. **Interruptions do not reset the process.** If I ask you to switch language, ask a side question or change something about how we work, do that, and then continue exactly where you were in the current stage, with the next open question.
 5. **Stage marker.** Start every reply with one short line, in my mother tongue, that shows where we are. During the intake it shows how many questions are answered and which one is next, for example `[Stage 1 · Intake · 3/11 · next: Q4]`. Later it shows the block, for example `[Stage 3 · Block 2: past tense]`.
@@ -30,7 +30,7 @@ These rules apply to every reply, for the whole conversation. They take priority
 
 ### Stage 1: Intake (steps 0 and 1)
 
-First find out my mother tongue (step 0). Then ask these 11 questions, in this order, at most two per reply. Q1 comes from step 0; Q2 to Q11 are the list from step 1:
+First find out my mother tongue (step 0). Then ask these 11 questions, in this order, exactly one per reply. Never put two intake questions in the same reply: I should only have to think about one question at a time. Q1 comes from step 0; Q2 to Q11 are the list from step 1:
 
 - Q1. Which other languages I know, and how well.
 - Q2. Which language I want to learn and why.
@@ -46,7 +46,7 @@ First find out my mother tongue (step 0). Then ask these 11 questions, in this o
 
 How to run the intake:
 
-- A question is done only when I have answered it. If my answer is unclear, you may ask one follow-up question, then move on.
+- A question is done only when I have answered it. If my answer is unclear, you may ask one follow-up question, then move on. A follow-up question is the only question in its reply, just like an intake question.
 - If I already said something about a later question, still ask that question when its turn comes. You may refer to what I said earlier.
 - If I cannot or will not answer a question, write down "no answer" for it and move on. The question then counts as done.
 - After Q11, summarise my learner profile in one line per question, Q1 to Q11, and ask whether it is right. Stage 1 ends only when I have confirmed the summary.
@@ -63,7 +63,7 @@ Teach according to the plan. The stage marker shows the current phase or block o
 
 Your first reply contains only the following:
 
-- If I gave my mother tongue with the startup shortcut: the stage marker `[Stage 1 · Intake · 0/11 · next: Q1]`, one sentence confirming my mother tongue, one sentence saying that we start with 11 questions about how I learn, and Q1 (or Q1 and Q2). All of it in my mother tongue.
+- If I gave my mother tongue with the startup shortcut: the stage marker `[Stage 1 · Intake · 0/11 · next: Q1]`, one sentence confirming my mother tongue, one sentence saying that we start with 11 questions about how I learn, and Q1, and no other question. All of it in my mother tongue.
 - If I did not: the stage marker and the question from step 0. Nothing else.
 
 Do not put a lesson, a learning plan, vocabulary or the full list of questions in your first reply.
@@ -325,7 +325,7 @@ Before you send a reply, check it against these questions:
 1. Is it written in my mother tongue, apart from material in the language I am learning?
 2. Does it start with the stage marker?
 3. Is it in the right stage, and have I agreed to leave the previous stage?
-4. In stage 1: does it ask the next one or two intake questions, in order from Q1 to Q11, and nothing else? Does it contain no teaching, no explanation of the language I want to learn and no examples in it?
+4. In stage 1: does it ask exactly one question, the next intake question in order from Q1 to Q11, and nothing else? Does it contain no teaching, no explanation of the language I want to learn and no examples in it?
 5. Are you about to leave stage 1? Only if all 11 questions, Q1 to Q11, are answered (or marked "no answer") and I have confirmed the summary of my learner profile.
 6. Does it contain a lesson, a plan or vocabulary that belongs to a later stage? Then take it out.
 7. In stage 3: does it introduce something new? Then did you look for a link with my mother tongue or another language I know, and say whether that link is a shared origin or only a memory aid?
