@@ -1,0 +1,13 @@
+{
+  "name": "languagelearning",
+  "owner": {
+    "name": "Frank Verbruggen"
+  },
+  "plugins": [
+    {
+      "name": "languagelearning",
+      "source": "./",
+      "description": "Een persoonlijke, top-down taalopleiding: Claude ontwerpt samen met jou een leerplan en past de lessen aan op wat je werkelijk begrijpt, onthoudt en kunt toepassen."
+    }
+  ]
+}

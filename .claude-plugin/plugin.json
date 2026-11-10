@@ -1,0 +1,9 @@
+{
+  "name": "languagelearning",
+  "description": "Een persoonlijke, top-down taalopleiding: Claude ontwerpt samen met jou een leerplan en past de lessen aan op wat je werkelijk begrijpt, onthoudt en kunt toepassen.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Frank Verbruggen"
+  },
+  "repository": "https://github.com/feamar/languagelearning"
+}
